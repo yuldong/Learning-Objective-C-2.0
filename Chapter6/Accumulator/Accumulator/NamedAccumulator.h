@@ -18,4 +18,6 @@
 - (void)setName:(NSString *)newName;
 - (void)addToTotal:(NSUInteger)amount;
 
+- (NSUInteger)total;
+- (void)setTotal:(NSUInteger)aTotal;
 @end

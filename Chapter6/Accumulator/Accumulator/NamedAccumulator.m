@@ -45,6 +45,21 @@
     [super addToTotal:amount];
 }
 
+- (NSUInteger)total {
+    return total;
+}
+
+- (void)setTotal:(NSUInteger)aTotal {
+    total = aTotal;
+}
+
+- (id)copyWithZone:(NSZone *)zone {
+    id copiedNamedAccumulator = [super copyWithZone:zone];
+    [copiedNamedAccumulator setName:@"NamedAccumulatorClass"];
+    [copiedNamedAccumulator setTotal:0];
+    return copiedNamedAccumulator;
+}
+
 - (void)dealloc {
     [name release];
     [super dealloc];

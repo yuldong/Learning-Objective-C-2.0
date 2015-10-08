@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Accumulator : NSObject
+@interface Accumulator : NSObject <NSCopying>
 {
     NSUInteger total;
 }

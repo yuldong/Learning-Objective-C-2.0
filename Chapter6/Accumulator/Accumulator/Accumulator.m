@@ -22,4 +22,8 @@
     total = 0;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    id copiedAccumulator = [[[self class] allocWithZone:zone] init];
+    return copiedAccumulator;
+}
 @end

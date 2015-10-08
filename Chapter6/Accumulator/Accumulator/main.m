@@ -23,6 +23,9 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"The total in the %@ Accumulator is... %ld", [ac name], [ac total]);
         
+        NamedAccumulator *copiedAc = [ac copy];
+        NSLog(@"The total in the %@ Accumulator is... %ld", [copiedAc name], [copiedAc total]);
+        [copiedAc release];
         [ac release];
     }
     return 0;
