@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDF1DDE71BC4FCD300B15B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1DDE61BC4FCD300B15B36 /* main.m */; };
+		CDF1DDEF1BC4FCF300B15B36 /* Accumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1DDEE1BC4FCF300B15B36 /* Accumulator.m */; settings = {ASSET_TAGS = (); }; };
+		CDF1DDF21BC4FE2300B15B36 /* NamedAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1DDF11BC4FE2300B15B36 /* NamedAccumulator.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDF1DDE11BC4FCD300B15B36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDF1DDE31BC4FCD300B15B36 /* Accumulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Accumulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF1DDE61BC4FCD300B15B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDF1DDED1BC4FCF300B15B36 /* Accumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accumulator.h; sourceTree = "<group>"; };
+		CDF1DDEE1BC4FCF300B15B36 /* Accumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accumulator.m; sourceTree = "<group>"; };
+		CDF1DDF01BC4FE2300B15B36 /* NamedAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedAccumulator.h; sourceTree = "<group>"; };
+		CDF1DDF11BC4FE2300B15B36 /* NamedAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedAccumulator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF1DDE01BC4FCD300B15B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF1DDDA1BC4FCD300B15B36 = {
+			isa = PBXGroup;
+			children = (
+				CDF1DDE51BC4FCD300B15B36 /* Accumulator */,
+				CDF1DDE41BC4FCD300B15B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF1DDE41BC4FCD300B15B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF1DDE31BC4FCD300B15B36 /* Accumulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF1DDE51BC4FCD300B15B36 /* Accumulator */ = {
+			isa = PBXGroup;
+			children = (
+				CDF1DDE61BC4FCD300B15B36 /* main.m */,
+				CDF1DDED1BC4FCF300B15B36 /* Accumulator.h */,
+				CDF1DDEE1BC4FCF300B15B36 /* Accumulator.m */,
+				CDF1DDF01BC4FE2300B15B36 /* NamedAccumulator.h */,
+				CDF1DDF11BC4FE2300B15B36 /* NamedAccumulator.m */,
+			);
+			path = Accumulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF1DDE21BC4FCD300B15B36 /* Accumulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF1DDEA1BC4FCD300B15B36 /* Build configuration list for PBXNativeTarget "Accumulator" */;
+			buildPhases = (
+				CDF1DDDF1BC4FCD300B15B36 /* Sources */,
+				CDF1DDE01BC4FCD300B15B36 /* Frameworks */,
+				CDF1DDE11BC4FCD300B15B36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accumulator;
+			productName = Accumulator;
+			productReference = CDF1DDE31BC4FCD300B15B36 /* Accumulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF1DDDB1BC4FCD300B15B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = YrionPlus;
+				TargetAttributes = {
+					CDF1DDE21BC4FCD300B15B36 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CDF1DDDE1BC4FCD300B15B36 /* Build configuration list for PBXProject "Accumulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDF1DDDA1BC4FCD300B15B36;
+			productRefGroup = CDF1DDE41BC4FCD300B15B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF1DDE21BC4FCD300B15B36 /* Accumulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF1DDDF1BC4FCD300B15B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF1DDEF1BC4FCF300B15B36 /* Accumulator.m in Sources */,
+				CDF1DDF21BC4FE2300B15B36 /* NamedAccumulator.m in Sources */,
+				CDF1DDE71BC4FCD300B15B36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDF1DDE81BC4FCD300B15B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDF1DDE91BC4FCD300B15B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDF1DDEB1BC4FCD300B15B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDF1DDEC1BC4FCD300B15B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF1DDDE1BC4FCD300B15B36 /* Build configuration list for PBXProject "Accumulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF1DDE81BC4FCD300B15B36 /* Debug */,
+				CDF1DDE91BC4FCD300B15B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF1DDEA1BC4FCD300B15B36 /* Build configuration list for PBXNativeTarget "Accumulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF1DDEB1BC4FCD300B15B36 /* Debug */,
+				CDF1DDEC1BC4FCD300B15B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF1DDDB1BC4FCD300B15B36 /* Project object */;
+}
