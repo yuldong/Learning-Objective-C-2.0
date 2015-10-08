@@ -13,6 +13,7 @@
     NSString *name;
 }
 
+- (instancetype)initWithName:(NSString *)aName total:(NSUInteger)aTotal;
 - (NSString *)name;
 - (void)setName:(NSString *)newName;
 - (void)addToTotal:(NSUInteger)amount;
