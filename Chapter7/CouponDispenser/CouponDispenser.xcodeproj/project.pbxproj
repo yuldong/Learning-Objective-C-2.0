@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDF1DDE71BC4FCD300B15B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1DDE61BC4FCD300B15B36 /* main.m */; };
-		CDF1DDEF1BC4FCF300B15B36 /* Accumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1DDEE1BC4FCF300B15B36 /* Accumulator.m */; };
-		CDF1DDF21BC4FE2300B15B36 /* NamedAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1DDF11BC4FE2300B15B36 /* NamedAccumulator.m */; };
+		CD6D90E81BDDC3D1004A027C /* Coupon.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D90E41BDDC3D1004A027C /* Coupon.m */; };
+		CD6D90E91BDDC3D1004A027C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D90E51BDDC3D1004A027C /* main.m */; };
+		CD6D90EA1BDDC3D1004A027C /* NewCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D90E71BDDC3D1004A027C /* NewCoupon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CDF1DDE11BC4FCD300B15B36 /* CopyFiles */ = {
+		CD6D90D51BDDC35A004A027C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,16 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CDF1DDE31BC4FCD300B15B36 /* Accumulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Accumulator; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF1DDE61BC4FCD300B15B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CDF1DDED1BC4FCF300B15B36 /* Accumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accumulator.h; sourceTree = "<group>"; };
-		CDF1DDEE1BC4FCF300B15B36 /* Accumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accumulator.m; sourceTree = "<group>"; };
-		CDF1DDF01BC4FE2300B15B36 /* NamedAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedAccumulator.h; sourceTree = "<group>"; };
-		CDF1DDF11BC4FE2300B15B36 /* NamedAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedAccumulator.m; sourceTree = "<group>"; };
+		CD6D90D71BDDC35A004A027C /* CouponDispenser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CouponDispenser; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6D90E31BDDC3D1004A027C /* Coupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coupon.h; sourceTree = "<group>"; };
+		CD6D90E41BDDC3D1004A027C /* Coupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coupon.m; sourceTree = "<group>"; };
+		CD6D90E51BDDC3D1004A027C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6D90E61BDDC3D1004A027C /* NewCoupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCoupon.h; sourceTree = "<group>"; };
+		CD6D90E71BDDC3D1004A027C /* NewCoupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCoupon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CDF1DDE01BC4FCD300B15B36 /* Frameworks */ = {
+		CD6D90D41BDDC35A004A027C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,100 +44,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CDF1DDDA1BC4FCD300B15B36 = {
+		CD6D90CE1BDDC35A004A027C = {
 			isa = PBXGroup;
 			children = (
-				CDF1DDE51BC4FCD300B15B36 /* Accumulator */,
-				CDF1DDE41BC4FCD300B15B36 /* Products */,
+				CD6D90D91BDDC35A004A027C /* CouponDispenser */,
+				CD6D90D81BDDC35A004A027C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CDF1DDE41BC4FCD300B15B36 /* Products */ = {
+		CD6D90D81BDDC35A004A027C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDF1DDE31BC4FCD300B15B36 /* Accumulator */,
+				CD6D90D71BDDC35A004A027C /* CouponDispenser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDF1DDE51BC4FCD300B15B36 /* Accumulator */ = {
+		CD6D90D91BDDC35A004A027C /* CouponDispenser */ = {
 			isa = PBXGroup;
 			children = (
-				CDF1DDE61BC4FCD300B15B36 /* main.m */,
-				CDF1DDED1BC4FCF300B15B36 /* Accumulator.h */,
-				CDF1DDEE1BC4FCF300B15B36 /* Accumulator.m */,
-				CDF1DDF01BC4FE2300B15B36 /* NamedAccumulator.h */,
-				CDF1DDF11BC4FE2300B15B36 /* NamedAccumulator.m */,
+				CD6D90E31BDDC3D1004A027C /* Coupon.h */,
+				CD6D90E41BDDC3D1004A027C /* Coupon.m */,
+				CD6D90E51BDDC3D1004A027C /* main.m */,
+				CD6D90E61BDDC3D1004A027C /* NewCoupon.h */,
+				CD6D90E71BDDC3D1004A027C /* NewCoupon.m */,
 			);
-			path = Accumulator;
+			path = CouponDispenser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDF1DDE21BC4FCD300B15B36 /* Accumulator */ = {
+		CD6D90D61BDDC35A004A027C /* CouponDispenser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDF1DDEA1BC4FCD300B15B36 /* Build configuration list for PBXNativeTarget "Accumulator" */;
+			buildConfigurationList = CD6D90DE1BDDC35A004A027C /* Build configuration list for PBXNativeTarget "CouponDispenser" */;
 			buildPhases = (
-				CDF1DDDF1BC4FCD300B15B36 /* Sources */,
-				CDF1DDE01BC4FCD300B15B36 /* Frameworks */,
-				CDF1DDE11BC4FCD300B15B36 /* CopyFiles */,
+				CD6D90D31BDDC35A004A027C /* Sources */,
+				CD6D90D41BDDC35A004A027C /* Frameworks */,
+				CD6D90D51BDDC35A004A027C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Accumulator;
-			productName = Accumulator;
-			productReference = CDF1DDE31BC4FCD300B15B36 /* Accumulator */;
+			name = CouponDispenser;
+			productName = CouponDispenser;
+			productReference = CD6D90D71BDDC35A004A027C /* CouponDispenser */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CDF1DDDB1BC4FCD300B15B36 /* Project object */ = {
+		CD6D90CF1BDDC35A004A027C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = YrionPlus;
 				TargetAttributes = {
-					CDF1DDE21BC4FCD300B15B36 = {
-						CreatedOnToolsVersion = 7.0.1;
+					CD6D90D61BDDC35A004A027C = {
+						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = CDF1DDDE1BC4FCD300B15B36 /* Build configuration list for PBXProject "Accumulator" */;
-			compatibilityVersion = "Xcode 6.3";
+			buildConfigurationList = CD6D90D21BDDC35A004A027C /* Build configuration list for PBXProject "CouponDispenser" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CDF1DDDA1BC4FCD300B15B36;
-			productRefGroup = CDF1DDE41BC4FCD300B15B36 /* Products */;
+			mainGroup = CD6D90CE1BDDC35A004A027C;
+			productRefGroup = CD6D90D81BDDC35A004A027C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDF1DDE21BC4FCD300B15B36 /* Accumulator */,
+				CD6D90D61BDDC35A004A027C /* CouponDispenser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CDF1DDDF1BC4FCD300B15B36 /* Sources */ = {
+		CD6D90D31BDDC35A004A027C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF1DDEF1BC4FCF300B15B36 /* Accumulator.m in Sources */,
-				CDF1DDF21BC4FE2300B15B36 /* NamedAccumulator.m in Sources */,
-				CDF1DDE71BC4FCD300B15B36 /* main.m in Sources */,
+				CD6D90EA1BDDC3D1004A027C /* NewCoupon.m in Sources */,
+				CD6D90E91BDDC3D1004A027C /* main.m in Sources */,
+				CD6D90E81BDDC3D1004A027C /* Coupon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CDF1DDE81BC4FCD300B15B36 /* Debug */ = {
+		CD6D90DC1BDDC35A004A027C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -154,6 +154,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -179,7 +180,7 @@
 			};
 			name = Debug;
 		};
-		CDF1DDE91BC4FCD300B15B36 /* Release */ = {
+		CD6D90DD1BDDC35A004A027C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,6 +197,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -214,14 +216,14 @@
 			};
 			name = Release;
 		};
-		CDF1DDEB1BC4FCD300B15B36 /* Debug */ = {
+		CD6D90DF1BDDC35A004A027C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CDF1DDEC1BC4FCD300B15B36 /* Release */ = {
+		CD6D90E01BDDC35A004A027C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -231,25 +233,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDF1DDDE1BC4FCD300B15B36 /* Build configuration list for PBXProject "Accumulator" */ = {
+		CD6D90D21BDDC35A004A027C /* Build configuration list for PBXProject "CouponDispenser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF1DDE81BC4FCD300B15B36 /* Debug */,
-				CDF1DDE91BC4FCD300B15B36 /* Release */,
+				CD6D90DC1BDDC35A004A027C /* Debug */,
+				CD6D90DD1BDDC35A004A027C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDF1DDEA1BC4FCD300B15B36 /* Build configuration list for PBXNativeTarget "Accumulator" */ = {
+		CD6D90DE1BDDC35A004A027C /* Build configuration list for PBXNativeTarget "CouponDispenser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDF1DDEB1BC4FCD300B15B36 /* Debug */,
-				CDF1DDEC1BC4FCD300B15B36 /* Release */,
+				CD6D90DF1BDDC35A004A027C /* Debug */,
+				CD6D90E01BDDC35A004A027C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CDF1DDDB1BC4FCD300B15B36 /* Project object */;
+	rootObject = CD6D90CF1BDDC35A004A027C /* Project object */;
 }
